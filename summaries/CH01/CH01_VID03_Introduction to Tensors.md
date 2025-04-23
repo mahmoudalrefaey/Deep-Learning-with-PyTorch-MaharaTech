@@ -110,8 +110,8 @@
 | Tensor   | 3D+       | `torch.tensor([[[1,2]]])`   | Multidimensional data structure        |
 
 - These types are symbolically referred to as:
-  - Scalar → `x`
-  - Vector → `X` (uppercase)
+  - Scalar → `a`
+  - Vector → `y`
   - Matrix → `Q`
   - Tensor → general multi-dim symbol like `𝑇` or `𝑿`
 
