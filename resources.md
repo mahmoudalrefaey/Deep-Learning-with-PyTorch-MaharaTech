@@ -24,7 +24,3 @@
 5. **Crash Course by Eng. Abu Bakr Soliman, MSc**  
    - A concise yet powerful crash course on PyTorch  
    - [Course Link](https://www.youtube.com/watch?v=I9_gp4tErHY&t=3s)
-
----
-
-Let me know if you'd like to add tags, categories, or format it for a website or repo README!
