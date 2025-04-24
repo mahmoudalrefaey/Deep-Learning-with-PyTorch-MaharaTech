@@ -86,8 +86,20 @@ This section provides an in-depth exploration of fundamental tensor manipulation
   - Adding a dimension with `.unsqueeze(dim=1)` to a tensor of shape `(3, 4)` results in `(3, 1, 4)`.
 
 ---
+## 9. Permuting Tensor Dimensions
 
-## 8. Practical Applications and Best Practices
+- **Permuting (`.permute()`):** This operation allows you to rearrange the order of axes (dimensions) in a tensor. It is especially useful when you need to change the layout of your data, such as converting between "channels last" (H, W, C) and "channels first" (C, H, W) formats, which is a common requirement in deep learning frameworks and models.
+
+- **How it works:** The `.permute(dims)` method returns a view of the original tensor with its dimensions reordered according to the specified `dims` tuple. No data is copied; only the view is changed.
+
+- **Use Cases:**
+  - Preparing image data for models that expect a specific channel order.
+  - Rearranging tensor dimensions for compatibility with different layers or libraries.
+  - Efficiently changing data layout without copying the underlying data.
+
+- **Key Point:** Permuting is a powerful tool for tensor dimension management, enabling flexible data manipulation and ensuring compatibility with various deep learning architectures.
+---
+## 9. Practical Applications and Best Practices
 
 - **Model Compatibility:** Always ensure tensor shapes match the expected input shapes of models or layers.
 - **Transfer Learning:** When adding new layers to pretrained models, reshape tensors to fit the new architecture.
@@ -97,7 +109,7 @@ This section provides an in-depth exploration of fundamental tensor manipulation
 
 ---
 
-## 9. Summary and Conclusion
+## 10. Summary and Conclusion
 
 This lesson provides a comprehensive understanding of essential tensor manipulation techniques in PyTorch. Mastery of reshaping, viewing, stacking, squeezing, and unsqueezing tensors is foundational for:
 
