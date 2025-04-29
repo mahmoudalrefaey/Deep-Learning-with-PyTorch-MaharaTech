@@ -3,7 +3,7 @@
 
 ## 🔗 Useful Resources
 
-1. **PyTorch Course on Maharat Tech by Eng. Mohamed Sebaie (This repository was created for it)**  
+1. **PyTorch Course on Mahara Tech by Eng. Mohamed Sebaie (This repository was created for it)**  
    - Hands-on PyTorch course, from basics to advanced topics like ViT and Transformers  
    - [Course Link](https://maharatech.gov.eg/course/view.php?id=2300)
 
